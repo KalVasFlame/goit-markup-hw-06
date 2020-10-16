@@ -205,7 +205,7 @@
 
 .checkbox-input:checked + .checkbox-icon {
   background-color: var(--accent-color);
-  background-image: url(/img/modal/checkbox.svg);
+  background-image: url(../img/modal/checkbox.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-origin: border-box;
