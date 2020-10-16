@@ -129,21 +129,33 @@
 }
 .form-input.name:hover {
   border-color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .form-input.name:hover + .modal-name-img {
   fill: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .form-input.email:hover {
   border-color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .form-input.email:hover + .modal-email-img {
   fill: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .form-input.tel:hover {
   border-color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .form-input.tel:hover + .modal-tel-img {
   fill: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .send-order {
@@ -281,24 +293,28 @@
 }
 .feature-list .attention::before {
   content: "";
+  background-color: var(--sub-minor-bg-color);
   background-image: url(../img/feature/feature-1.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .feature-list .punctuality::before {
   content: "";
+  background-color: var(--sub-minor-bg-color);
   background-image: url(../img/feature/feature-2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .feature-list .planning::before {
   content: "";
+  background-color: var(--sub-minor-bg-color);
   background-image: url(../img/feature/feature-3.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .feature-list .technologies::before {
   content: "";
+  background-color: var(--sub-minor-bg-color);
   background-image: url(../img/feature/feature-4.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -410,9 +426,13 @@
 .our-team-social-item:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .our-team-social-item:hover .social-icon {
   fill: var(--major-white-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 /* Our team */
@@ -444,16 +464,43 @@
   justify-content: center;
 }
 .customers-icon {
+  fill: var(--icon-main);
+}
+
+.ya-co {
   width: 44px;
   height: 49px;
-  fill: var(--icon-main);
+}
+.comapny-tag-line-here {
+  width: 40px;
+  height: 52px;
+}
+.company {
+  width: 44px;
+  height: 49px;
+}
+.foster-peters {
+  width: 80px;
+  height: 42px;
+}
+.brand {
+  width: 60px;
+  height: 47px;
+}
+.company-tag-line {
+  width: 88px;
+  height: 45px;
 }
 .customers-item:hover {
   border-color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .customers-item:hover .customers-icon {
   fill: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .customers-list .customers-item + .customers-item {

@@ -120,6 +120,8 @@ input {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .nav-link.current {
   color: var(--accent-color);
@@ -161,20 +163,24 @@ input {
   fill: var(--major-text-color);
 }
 .mail-icon {
-  width: 16px;
-  height: 12px;
+  width: 20px;
+  height: 17px;
 }
 .tel-icon {
-  width: 10px;
-  height: 16px;
+  width: 15px;
+  height: 17px;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .contacts-link:hover .contacts-icon,
 .contacts-link:focus .contacts-icon {
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   fill: var(--accent-color);
 }
 
@@ -257,9 +263,13 @@ input {
 .footer-social-item:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .footer-social-item:hover .social-icon {
   fill: var(--major-white-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .subscribe {
