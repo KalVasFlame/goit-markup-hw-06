@@ -41,9 +41,6 @@ h6 {
   margin-bottom: 0;
 }
 
-a:-webkit-any-link {
-  color: inherit;
-}
 a {
   text-decoration: none;
 }
@@ -65,6 +62,11 @@ li {
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+input {
+  margin: 0;
+  padding: 0;
 }
 .container {
   margin: 0 auto;
@@ -140,6 +142,7 @@ p {
 .contacts-link {
   display: flex;
   align-items: center;
+  color: var(--major-text-color);
 }
 .contacts {
   display: flex;
@@ -257,6 +260,54 @@ p {
 }
 .footer-social-item:hover .social-icon {
   fill: var(--major-white-color);
+}
+
+.subscribe {
+  margin-left: 90px;
+  margin-top: 72px;
+}
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subscribe-form {
+}
+.subscribe-label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--major-white-color);
+}
+.subscribe-btn {
+  display: inline-flex;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--major-white-color);
+  background: var(--accent-color);
+  background-position: 160px center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.subscribe-btn-text {
+  margin-left: 29px;
+  margin-right: 10px;
 }
 /* Footer */
 /* Social icons */
