@@ -105,6 +105,9 @@
   letter-spacing: 0.03em;
   color: var(--major-text-color);
 }
+.form-input {
+  outline: none;
+}
 
 .modal-name-img {
   position: absolute;
