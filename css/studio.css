@@ -130,32 +130,38 @@
   width: 15px;
   height: 12px;
 }
-.form-input.name:hover {
+.form-input.name:hover,
+.form-input.name:focus {
   border-color: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.form-input.name:hover + .modal-name-img {
+.form-input.name:hover + .modal-name-img,
+.form-input.name:focus + .modal-name-img {
   fill: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.form-input.email:hover {
+.form-input.email:hover,
+.form-input.email:focus {
   border-color: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.form-input.email:hover + .modal-email-img {
+.form-input.email:hover + .modal-email-img,
+.form-input.email:focus + .modal-email-img {
   fill: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.form-input.tel:hover {
+.form-input.tel:hover,
+.form-input.tel:focus {
   border-color: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.form-input.tel:hover + .modal-tel-img {
+.form-input.tel:hover + .modal-tel-img,
+.form-input.tel:focus + .modal-tel-img {
   fill: var(--accent-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
